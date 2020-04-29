@@ -17,6 +17,6 @@ The script will recursively traverse specified directory, including only the req
 NOTE: The lines will break if they're over 120 characters. I think it's a sensitive limit.
 
 ## Example
-```$ python main.py -dst "/home/kdryja/University/thesis/code" -out code.pdf go sol html js sh txt```
+```$ python code2pdf.py -dst "/home/kdryja/University/thesis/code" -out code.pdf go sol html js sh txt```
 
 Tested on Python 3.8.2 and xhtml2pdf 0.2.4.
