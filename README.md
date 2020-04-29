@@ -18,5 +18,6 @@ NOTE: The lines will break if they're over 120 characters. I think it's a sensit
 
 ## Example
 ```$ python code2pdf.py -dst "/home/kdryja/University/thesis/code" -out code.pdf go sol html js sh txt```
+This command will traverse directory `/home/kdryja/University/thesis/code` looking for files with either of those extensions `go sol html js sh txt` and writing them to a pdf named `code.pdf`.
 
 Tested on Python 3.8.2 and xhtml2pdf 0.2.4.
