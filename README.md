@@ -1,2 +1,20 @@
 # code2pdf
 Convert source files into a pdf
+ 
+## Why?
+My University requires me to submit all code produced as as single PDF. No idea why would they do that, but I wanted to make my code at least somewhat presentable and life at least a little bit easier.
+
+# Usage
+It's a simple Python script with a single dependency: xhtml2pdf.
+
+First install the dependency:
+```$ pip install -r requirements.txt```
+
+Now you can point the script towards your source code using `-dst`, specify output name using `-out` and list the file extensions that you would like to include in the pdf as positional arguments.
+
+The script will recursively traverse specified directory, including only the requested extensions.
+
+NOTE: The lines will break if they're over 120 characters. I think it's a sensitive limit.
+
+## Example
+```$ python main.py -dst "/home/kdryja/University/thesis/code" -out code.pdf go sol html js sh txt```
