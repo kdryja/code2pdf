@@ -8,7 +8,7 @@ My University requires me to submit all code produced as as single PDF. No idea 
 It's a simple Python script with a single dependency: xhtml2pdf.
 
 First install the dependency:
-```$ pip install -r requirements.txt```
+```$ pip install xhtml2pdf```
 
 Now you can point the script towards your source code using `-dst`, specify output name using `-out` and list the file extensions that you would like to include in the pdf as positional arguments.
 
@@ -18,3 +18,5 @@ NOTE: The lines will break if they're over 120 characters. I think it's a sensit
 
 ## Example
 ```$ python main.py -dst "/home/kdryja/University/thesis/code" -out code.pdf go sol html js sh txt```
+
+Tested on Python 3.8.2 and xhtml2pdf 0.2.4.
