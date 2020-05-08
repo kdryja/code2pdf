@@ -21,11 +21,12 @@ pre {
 }
 </style>
 <body>
+<h1>Code Listing</h1>
 %%%code%%%
 </body>
 </html>"""
 CODE_TEMPLATE = """
-<div>
+<hr><div>
     <h1>%%%name%%%</h1>
     <div class="code">
         <pre>%%%snippet%%%</pre>
